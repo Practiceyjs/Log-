@@ -1,0 +1,384 @@
+ - Sequence Log
+
+[INFO] [] 6/10_2:20:30	26780593	nPC = 0 , punch hole = 0, , index = 674	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:30	26780593	[ComView 함수 ] - Check2DCamInspEnable Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:30	26780609	[ComView 함수 ] - PC : [0] / 메세지 : [MASTER_BOTTOM_GRAB_START,674,1,60W1RDXS03,10,,0,0,] Grab 신호 전송 완료	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:30	26780625	[ComView 함수 ] - Check2DCamInspEnable Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:30	26780625	[ComView 함수 ] - PC : [0] / 메세지 : [MASTER_GRAB_START,706,1,60W1RDXS03,10,,0] Grab 신호 전송 완료	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:30	26780640	[INSP_2DTASK STEP ] - STEP_INSP_GRAB_CHECK 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:30	26780656	[INSP_2DTASK STEP ] - STEP_INSP_GRAB_CHECK	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:30	26780656	[INSP_2DTASK 함수 ] - Check2DGrabEndMsg Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:31	26781625	Set2D0InspResultWaitIndex 	: INDEX : 705	 (SequenceLog) - 
+[INFO] [] 6/10_2:20:32	26781765	[INSP_2DTASK 함수 ] - Check2DInspEnd Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781781	Get2DPc_0_Insp_End(Get2D0InspResultWaitIndex() == TRUE임. 705)	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781796	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_OP 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781828	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_OP	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781828	[INSP_2DTASK STEP ] - 베리파이 사용으로 Veify로 이동.	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781843	[INSP_2DTASK 함수 ] - bCheckVerifyAndNgView Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781859	[INSP_2DTASK 함수 ] - check editngdevice = 670	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781859	D:\VerifyImage\2025\06\10\60W1RDXS03\670 해당 경로 File Copy.	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781875	RenameImageRestChange START	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781890	RenameImageRestChange End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781890	[INSP_2DTASK 함수 ] - bCheckVerifyAndNgView End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781906	[INSP_2DTASK STEP ] - STEP_NG_DEVICE_PUNCH 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781921	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_COUNT 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781921	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_COUNT	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781937	[INSP_2DTASK 함수 ] - bCheckFinalJudgement Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781953	bCheckFinalJudgement 	: INDEX : 668	 (SequenceLog) - 
+[INFO] [] 6/10_2:20:32	26781968	GetOutCountCheckIndex 	: INDEX : 668	 (SequenceLog) - 
+[INFO] [] 6/10_2:20:32	26781968	 Lot NO : [60W1RDXS03] Judge Index : [668] Out Count:[669] MissCheck Count:[0] Punch Hole Count:[32] GOOD Count :[634] NG Count: [3] Insp Total Count :[669] Lot End Index : [10000]	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26781984	[INSP_2DTASK 함수 ] - bCheckFinalJudgement End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782000	[INSP_2DTASK STEP ] - STEP_CYCLE_END_OP 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782000	[INSP_2DTASK STEP ] - STEP_CYCLE_END_OP	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782015	VERIFY_ONE_CYCLE_DATA,1688,637,3,3,0,32		
+	 (SequenceLog) - 			
+[INFO] [] 6/10_2:20:32	26782031	[INSP_2DTASK STEP ] - STEP_FORK 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782031	[INSP_2DTASK STEP ] - STEP_INSP_PITCH_FEED	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782046	StartMRMove 시작 47.500000	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782062	setMultiMove_RelativeStart 시작 31250.000000	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782218	현재 센서 : INPUT_LOADER_BUFFER_UPPER_CHECK	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782250	[비상_LoadTask]_Roller Run CW	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782265	setMultiMove_RelativeStart 성공	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782281	Wait4Done 시작	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782453	[INSP_2DTASK STEP ] - STEP_CALCULATE_UNITSTEP	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782468	[INSP_2DTASK 함수 ] - CalStepIndexInfo Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782468	[INSP_2DTASK 함수 ] - CalStepIndexInfo End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782484	[INSP_2DTASK 함수 ] - Check2DCamInspEnable Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782484	[INSP_2DTASK 함수 ] - SetLineScanInspStart true 701 / 701 / 10000 / 1	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782500	[INSP_2DTASK 함수 ] - Check2DCamInspEnable End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782515	[INSP_2DTASK STEP ] - STEP_INSPCAM_GRAB_START 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782531	[INSP_2DTASK STEP ] - STEP_INSPCAM_GRAB_START	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782546	AM Grab Index = 672	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782562	01,1001,0,672,1,60W1RDXS03,(null),0,1,0,	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782562	AM Grab Send 1	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782578	nPC = 0 , punch hole = 0, , index = 675	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782593	[ComView 함수 ] - Check2DCamInspEnable Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782593	[ComView 함수 ] - PC : [0] / 메세지 : [MASTER_BOTTOM_GRAB_START,675,1,60W1RDXS03,10,,0,0,] Grab 신호 전송 완료	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782609	[ComView 함수 ] - Check2DCamInspEnable Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782625	[ComView 함수 ] - PC : [0] / 메세지 : [MASTER_GRAB_START,707,1,60W1RDXS03,10,,0] Grab 신호 전송 완료	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782625	[INSP_2DTASK STEP ] - STEP_INSP_GRAB_CHECK 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782640	[INSP_2DTASK STEP ] - STEP_INSP_GRAB_CHECK	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:32	26782656	[INSP_2DTASK 함수 ] - Check2DGrabEndMsg Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:33	26783656	Set2D0InspResultWaitIndex 	: INDEX : 706	 (SequenceLog) - 
+[INFO] [] 6/10_2:20:34	26783812	[INSP_2DTASK 함수 ] - Check2DInspEnd Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26783828	Get2DPc_0_Insp_End(Get2D0InspResultWaitIndex() == TRUE임. 706)	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26783843	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_OP 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26783875	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_OP	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26783890	[INSP_2DTASK STEP ] - 베리파이 사용으로 Veify로 이동.	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26783890	[INSP_2DTASK 함수 ] - bCheckVerifyAndNgView Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26783906	[INSP_2DTASK 함수 ] - check editngdevice = 671	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26783921	D:\VerifyImage\2025\06\10\60W1RDXS03\671 해당 경로 File Copy.	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26783921	RenameImageRestChange START	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26783937	RenameImageRestChange End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26783953	[INSP_2DTASK 함수 ] - bCheckVerifyAndNgView End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26783968	[INSP_2DTASK STEP ] - STEP_NG_DEVICE_PUNCH 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26783968	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_COUNT 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26783984	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_COUNT	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784000	[INSP_2DTASK 함수 ] - bCheckFinalJudgement Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784000	bCheckFinalJudgement 	: INDEX : 669	 (SequenceLog) - 
+[INFO] [] 6/10_2:20:34	26784015	GetOutCountCheckIndex 	: INDEX : 669	 (SequenceLog) - 
+[INFO] [] 6/10_2:20:34	26784031	 Lot NO : [60W1RDXS03] Judge Index : [669] Out Count:[670] MissCheck Count:[0] Punch Hole Count:[32] GOOD Count :[635] NG Count: [3] Insp Total Count :[670] Lot End Index : [10000]	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784031	[INSP_2DTASK 함수 ] - bCheckFinalJudgement End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784046	[INSP_2DTASK STEP ] - STEP_CYCLE_END_OP 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784062	[INSP_2DTASK STEP ] - STEP_CYCLE_END_OP	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784078	VERIFY_ONE_CYCLE_DATA,1688,638,3,3,0,32		
+	 (SequenceLog) - 			
+[INFO] [] 6/10_2:20:34	26784078	[INSP_2DTASK STEP ] - STEP_FORK 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784093	[INSP_2DTASK STEP ] - STEP_INSP_PITCH_FEED	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784109	StartMRMove 시작 47.500000	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784109	setMultiMove_RelativeStart 시작 31250.000000	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784312	setMultiMove_RelativeStart 성공	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784328	Wait4Done 시작	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784500	[INSP_2DTASK STEP ] - STEP_CALCULATE_UNITSTEP	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784500	[INSP_2DTASK 함수 ] - CalStepIndexInfo Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784515	[INSP_2DTASK 함수 ] - CalStepIndexInfo End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784531	[INSP_2DTASK 함수 ] - Check2DCamInspEnable Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784531	[INSP_2DTASK 함수 ] - SetLineScanInspStart true 702 / 702 / 10000 / 1	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784546	[INSP_2DTASK 함수 ] - Check2DCamInspEnable End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784562	[INSP_2DTASK STEP ] - STEP_INSPCAM_GRAB_START 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784578	[INSP_2DTASK STEP ] - STEP_INSPCAM_GRAB_START	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784593	AM Grab Index = 673	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784609	01,1001,0,673,1,60W1RDXS03,(null),0,1,0,	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784609	AM Grab Send 1	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784625	nPC = 0 , punch hole = 0, , index = 676	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784640	[ComView 함수 ] - Check2DCamInspEnable Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784640	[ComView 함수 ] - PC : [0] / 메세지 : [MASTER_BOTTOM_GRAB_START,676,1,60W1RDXS03,10,,0,0,] Grab 신호 전송 완료	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784656	[ComView 함수 ] - Check2DCamInspEnable Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784671	[ComView 함수 ] - PC : [0] / 메세지 : [MASTER_GRAB_START,708,1,60W1RDXS03,10,,0] Grab 신호 전송 완료	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:34	26784671	[INSP_2DTASK STEP ] - STEP_INSP_GRAB_CHECK 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:35	26784687	[INSP_2DTASK STEP ] - STEP_INSP_GRAB_CHECK	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:35	26784703	[INSP_2DTASK 함수 ] - Check2DGrabEndMsg Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:35	26785640	Set2D0InspResultWaitIndex 	: INDEX : 707	 (SequenceLog) - 
+[INFO] [] 6/10_2:20:36	26785796	[INSP_2DTASK 함수 ] - Check2DInspEnd Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785812	Get2DPc_0_Insp_End(Get2D0InspResultWaitIndex() == TRUE임. 707)	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785828	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_OP 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785859	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_OP	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785875	[INSP_2DTASK STEP ] - 베리파이 사용으로 Veify로 이동.	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785875	[INSP_2DTASK 함수 ] - bCheckVerifyAndNgView Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785890	[INSP_2DTASK 함수 ] - check editngdevice = 672	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785906	D:\VerifyImage\2025\06\10\60W1RDXS03\672 해당 경로 File Copy.	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785921	RenameImageRestChange START	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785921	RenameImageRestChange End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785937	[INSP_2DTASK 함수 ] - bCheckVerifyAndNgView End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785953	[INSP_2DTASK STEP ] - STEP_NG_DEVICE_PUNCH 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785953	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_COUNT 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785968	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_COUNT	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785984	[INSP_2DTASK 함수 ] - bCheckFinalJudgement Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26785984	bCheckFinalJudgement 	: INDEX : 670	 (SequenceLog) - 
+[INFO] [] 6/10_2:20:36	26786000	GetOutCountCheckIndex 	: INDEX : 670	 (SequenceLog) - 
+[INFO] [] 6/10_2:20:36	26786015	 Lot NO : [60W1RDXS03] Judge Index : [670] Out Count:[671] MissCheck Count:[0] Punch Hole Count:[32] GOOD Count :[636] NG Count: [3] Insp Total Count :[671] Lot End Index : [10000]	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786031	[INSP_2DTASK 함수 ] - bCheckFinalJudgement End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786031	[INSP_2DTASK STEP ] - STEP_CYCLE_END_OP 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786046	[INSP_2DTASK STEP ] - STEP_CYCLE_END_OP	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786062	VERIFY_ONE_CYCLE_DATA,1688,639,3,3,0,32		
+	 (SequenceLog) - 			
+[INFO] [] 6/10_2:20:36	26786062	[INSP_2DTASK STEP ] - STEP_FORK 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786078	[INSP_2DTASK STEP ] - STEP_INSP_PITCH_FEED	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786093	StartMRMove 시작 47.500000	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786093	setMultiMove_RelativeStart 시작 31250.000000	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786187	Unload LOWER CHECK되서 REEL 감는다.	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786234	[비상_UnLoadTask]_Roller Run CW	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786296	setMultiMove_RelativeStart 성공	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786296	Wait4Done 시작	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786484	[INSP_2DTASK STEP ] - STEP_CALCULATE_UNITSTEP	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786500	[INSP_2DTASK 함수 ] - CalStepIndexInfo Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786515	[INSP_2DTASK 함수 ] - CalStepIndexInfo End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786515	[INSP_2DTASK 함수 ] - Check2DCamInspEnable Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786531	[INSP_2DTASK 함수 ] - SetLineScanInspStart true 703 / 703 / 10000 / 1	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786546	[INSP_2DTASK 함수 ] - Check2DCamInspEnable End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786546	[INSP_2DTASK STEP ] - STEP_INSPCAM_GRAB_START 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786562	[INSP_2DTASK STEP ] - STEP_INSPCAM_GRAB_START	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786578	AM Grab Index = 674	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786578	01,1001,0,674,1,60W1RDXS03,(null),0,1,0,	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786593	AM Grab Send 1	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786609	nPC = 0 , punch hole = 0, , index = 677	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786609	[ComView 함수 ] - Check2DCamInspEnable Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786625	[ComView 함수 ] - PC : [0] / 메세지 : [MASTER_BOTTOM_GRAB_START,677,1,60W1RDXS03,10,,0,0,] Grab 신호 전송 완료	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786640	[ComView 함수 ] - Check2DCamInspEnable Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786656	[ComView 함수 ] - PC : [0] / 메세지 : [MASTER_GRAB_START,709,1,60W1RDXS03,10,,0] Grab 신호 전송 완료	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786656	[INSP_2DTASK STEP ] - STEP_INSP_GRAB_CHECK 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786671	[INSP_2DTASK STEP ] - STEP_INSP_GRAB_CHECK	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:36	26786687	[INSP_2DTASK 함수 ] - Check2DGrabEndMsg Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:37	26787671	Set2D0InspResultWaitIndex 	: INDEX : 708	 (SequenceLog) - 
+[INFO] [] 6/10_2:20:38	26787828	[INSP_2DTASK 함수 ] - Check2DInspEnd Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26787843	Get2DPc_0_Insp_End(Get2D0InspResultWaitIndex() == TRUE임. 708)	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26787859	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_OP 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26787890	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_OP	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26787890	[INSP_2DTASK STEP ] - 베리파이 사용으로 Veify로 이동.	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26787906	[INSP_2DTASK 함수 ] - bCheckVerifyAndNgView Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26787921	[INSP_2DTASK 함수 ] - check editngdevice = 673	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26787921	D:\VerifyImage\2025\06\10\60W1RDXS03\673 해당 경로 File Copy.	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26787937	RenameImageRestChange START	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26787953	RenameImageRestChange End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26787953	[INSP_2DTASK 함수 ] - bCheckVerifyAndNgView End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26787968	[INSP_2DTASK STEP ] - STEP_NG_DEVICE_PUNCH 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26787984	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_COUNT 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26788000	[INSP_2DTASK STEP ] - STEP_FINAL_JUDGEMENT_COUNT	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26788000	[INSP_2DTASK 함수 ] - bCheckFinalJudgement Start	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26788015	bCheckFinalJudgement 	: INDEX : 671	 (SequenceLog) - 
+[INFO] [] 6/10_2:20:38	26788031	GetOutCountCheckIndex 	: INDEX : 671	 (SequenceLog) - 
+[INFO] [] 6/10_2:20:38	26788031	 Lot NO : [60W1RDXS03] Judge Index : [671] Out Count:[672] MissCheck Count:[0] Punch Hole Count:[32] GOOD Count :[637] NG Count: [3] Insp Total Count :[672] Lot End Index : [10000]	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26788046	[INSP_2DTASK 함수 ] - bCheckFinalJudgement End	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26788062	[INSP_2DTASK STEP ] - STEP_CYCLE_END_OP 변경	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26788062	[INSP_2DTASK STEP ] - STEP_CYCLE_END_OP	 (SequenceLog) - 	
+[INFO] [] 6/10_2:20:38	26788078	VERIFY_ONE_CYCLE_DATA,1688,640,3,3,0,32		
+
+
+Socket Log
+[INFO] [] 6/10_2:20:30	26779875	VIsion PC : [0] => MASTER_INSP_RESULT_RECEIVE	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:30	26779890	VERIFY_CLIENT_RUN_START		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:30	26779937	VERIFY_CLIENT_HEART		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:30	26780000	VERIFY_ONE_CYCLE_DATA,1688,636,3,3,0,32		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:30	26780500	[TactTime Log Test] - 각 PC Grab 전송 시작	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:30	26780562	[ComView][SendDataToClient_AM] - VIsion PC : [AM_PC] => 01,1001,0,671,1,60W1RDXS03,(null),0,1,0,	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:30	26780578	[ComView][SendGrabStartMsg_BOTTOM] - MASTER_BOTTOM_GRAB_START,674,1,60W1RDXS03,10,,0,0,	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:30	26780593	[ComView 함수 ] - PC : [0] / 메세지 : [MASTER_BOTTOM_GRAB_START,674,1,60W1RDXS03,10,,0,0,] Grab 신호 전송 완료	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:30	26780593	상부 Index Check : 706 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:30	26780609	[ComView][SendGrabStartMsg][상부] - MASTER_GRAB_START,706,1,60W1RDXS03,10,,0	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:30	26780625	[ComView 함수 ] - PC : [0] / 메세지 : [MASTER_GRAB_START,706,1,60W1RDXS03,10,,0] Grab 신호 전송 완료	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:30	26780625	[TactTime Log Test] - 각 PC Grab 전송 완료	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781171	2,2002,2,1	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781187	[ComView][DataParsing] - CLIENT_GRAB_END	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781187	[ComView][DataParsing] - CLIENT_GRAB_END (,) 개수가 안맞음. 1 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781203	[ComView][DataParsing][CLIENT_GRAB_END] - 1	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781218	2,2003,2,1,671,1,0	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781218	---------------------------------------------------------------------f--------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781234	[ComView][DataParsing] - [상부] : CLIENT_INSP_END	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781250	[ComView][DataParsing] - CLIENT_INSP_END_AM (,) 개수가 안맞음. 4 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781265	[ComView][DataParsing][CLIENT_INSP_END] - [AM_PC] : DeviceCnt:1 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781265	[ComView][DataParsing][CLIENT_INSP_END] - [AM] : nDeviceID[671] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781281	[ComView][DataParsing][CLIENT_INSP_END] - [AM] : nDefectCnt[1] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781296	[ComView][DataParsing][CLIENT_INSP_END] - [AM] : nDefectID[0] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781296	[ComView][DataParsing][CLIENT_INSP_END] - [AM] : good 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781468	CLIENT_GRAB_BOTTOM_RECEIVE,674	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781484	-----------------------------------------------------------------------------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781484	[ComView][DataParsing] - [하부] : CLIENT_GRAB_BOTTOM_RECEIVE 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781500	[ComView][DataParsing] - CLIENT_GRAB_BOTTOM_RECEIVE (,) 개수가 안맞음. 0 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781515	[ComView][DataParsing][CLIENT_GRAB_BOTTOM_RECEIVE] - [하부] : nDeviceID[674] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781515	[ComView][DataParsing] - [하부] : CLIENT_GRAB_BOTTOM_RECEIVE - Success	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781531	-----------------------------------------------------------------------------		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:31	26781593	CLIENT_GRAB_RECEIVE,706	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781609	-----------------------------------------------------------------------------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781625	[ComView][DataParsing] - [상부] : CLIENT_GRAB_RECEIVE 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781625	[ComView][DataParsing] - CLIENT_GRAB_RECEIVE (,) 개수가 안맞음. 0 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781640	[ComView][DataParsing][CLIENT_GRAB_RECEIVE] - [상부] : nDeviceID[706] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781656	[ComView][DataParsing] - [상부] : CLIENT_GRAB_RECEIVE - Success	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:31	26781656	-----------------------------------------------------------------------------		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:31	26781671	CLIENT_INSP_BOTTOM_END,1,674,100,	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781687	-----------------------------------------------------------------------------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781687	[ComView][DataParsing] - [하부] : CLIENT_INSP_BOTTOM_END	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781703	[ComView][DataParsing][CLIENT_INSP_BOTTOM_END] - [하부] : nDeviceCnt:1 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781718	[ComView][DataParsing][CLIENT_INSP_BOTTOM_END] - [하부] : nDeviceID[674] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781718	[ComView][DataParsing][CLIENT_INSP_BOTTOM_END] - [하부] : nMajorDefectNo[100] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781734	[COM][하부] - Device No : 674	 GOOD~	 (VisionPCLog) - 
+[INFO] [] 6/10_2:20:32	26781750	[ComView][DataParsing] - [하부] : CLIENT_INSP_BOTTOM_END - Success	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781765	-----------------------------------------------------------------------------		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:32	26781765	VIsion PC : [0] => MASTER_INSP_RESULT_BOTTOM_RECEIVE	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781781	CLIENT_INSP_END,1,706,100,0,0,0,	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781796	---------------------------------------------------------------------f--------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781796	[ComView][DataParsing] - [상부] : CLIENT_INSP_END	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781812	[ComView][DataParsing] - CLIENT_INSP_END_TOP (,) 개수가 안맞음. 6 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781828	[ComView][DataParsing][CLIENT_INSP_END] - [Vision_PC] : DeviceCnt:1 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781828	[ComView][DataParsing][CLIENT_INSP_END] - [상부] : nDeviceID[706] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781843	[ComView][DataParsing][CLIENT_INSP_END] - [상부] : nMajorDefectNo[100] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781859	[COM][상부] - Device No : 706	 GOOD~	 (VisionPCLog) - 
+[INFO] [] 6/10_2:20:32	26781859	[ComView][DataParsing] - [상부] : CLIENT_INSP_END - Success	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781875	-----------------------------------------------------------------------------		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:32	26781890	VIsion PC : [0] => MASTER_INSP_RESULT_RECEIVE	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26781890	VERIFY_CLIENT_RUN_START		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:32	26781921	VERIFY_CLIENT_HEART		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:32	26781984	VERIFY_ONE_CYCLE_DATA,1688,637,3,3,0,32		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:32	26782484	[TactTime Log Test] - 각 PC Grab 전송 시작	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26782546	[ComView][SendDataToClient_AM] - VIsion PC : [AM_PC] => 01,1001,0,672,1,60W1RDXS03,(null),0,1,0,	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26782562	[ComView][SendGrabStartMsg_BOTTOM] - MASTER_BOTTOM_GRAB_START,675,1,60W1RDXS03,10,,0,0,	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26782578	[ComView 함수 ] - PC : [0] / 메세지 : [MASTER_BOTTOM_GRAB_START,675,1,60W1RDXS03,10,,0,0,] Grab 신호 전송 완료	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26782593	상부 Index Check : 707 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26782593	[ComView][SendGrabStartMsg][상부] - MASTER_GRAB_START,707,1,60W1RDXS03,10,,0	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26782609	[ComView 함수 ] - PC : [0] / 메세지 : [MASTER_GRAB_START,707,1,60W1RDXS03,10,,0] Grab 신호 전송 완료	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:32	26782625	[TactTime Log Test] - 각 PC Grab 전송 완료	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783156	2,2002,2,1	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783156	[ComView][DataParsing] - CLIENT_GRAB_END	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783171	[ComView][DataParsing] - CLIENT_GRAB_END (,) 개수가 안맞음. 1 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783187	[ComView][DataParsing][CLIENT_GRAB_END] - 1	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783203	2,2003,2,1,672,1,0	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783218	---------------------------------------------------------------------f--------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783234	[ComView][DataParsing] - [상부] : CLIENT_INSP_END	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783234	[ComView][DataParsing] - CLIENT_INSP_END_AM (,) 개수가 안맞음. 4 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783250	[ComView][DataParsing][CLIENT_INSP_END] - [AM_PC] : DeviceCnt:1 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783265	[ComView][DataParsing][CLIENT_INSP_END] - [AM] : nDeviceID[672] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783265	[ComView][DataParsing][CLIENT_INSP_END] - [AM] : nDefectCnt[1] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783281	[ComView][DataParsing][CLIENT_INSP_END] - [AM] : nDefectID[0] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783296	[ComView][DataParsing][CLIENT_INSP_END] - [AM] : good 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783562	CLIENT_GRAB_RECEIVE,707	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783578	-----------------------------------------------------------------------------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783593	[ComView][DataParsing] - [상부] : CLIENT_GRAB_RECEIVE 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783593	[ComView][DataParsing] - CLIENT_GRAB_RECEIVE (,) 개수가 안맞음. 0 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783609	[ComView][DataParsing][CLIENT_GRAB_RECEIVE] - [상부] : nDeviceID[707] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783625	[ComView][DataParsing] - [상부] : CLIENT_GRAB_RECEIVE - Success	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783625	-----------------------------------------------------------------------------		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:33	26783640	CLIENT_GRAB_BOTTOM_RECEIVE,675	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783656	-----------------------------------------------------------------------------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783656	[ComView][DataParsing] - [하부] : CLIENT_GRAB_BOTTOM_RECEIVE 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:33	26783671	[ComView][DataParsing] - CLIENT_GRAB_BOTTOM_RECEIVE (,) 개수가 안맞음. 0 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783687	[ComView][DataParsing][CLIENT_GRAB_BOTTOM_RECEIVE] - [하부] : nDeviceID[675] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783687	[ComView][DataParsing] - [하부] : CLIENT_GRAB_BOTTOM_RECEIVE - Success	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783703	-----------------------------------------------------------------------------		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:34	26783718	CLIENT_INSP_END,1,707,100,0,0,0,	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783734	---------------------------------------------------------------------f--------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783734	[ComView][DataParsing] - [상부] : CLIENT_INSP_END	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783750	[ComView][DataParsing] - CLIENT_INSP_END_TOP (,) 개수가 안맞음. 6 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783750	[ComView][DataParsing][CLIENT_INSP_END] - [Vision_PC] : DeviceCnt:1 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783765	[ComView][DataParsing][CLIENT_INSP_END] - [상부] : nDeviceID[707] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783781	[ComView][DataParsing][CLIENT_INSP_END] - [상부] : nMajorDefectNo[100] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783796	[COM][상부] - Device No : 707	 GOOD~	 (VisionPCLog) - 
+[INFO] [] 6/10_2:20:34	26783796	[ComView][DataParsing] - [상부] : CLIENT_INSP_END - Success	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783812	-----------------------------------------------------------------------------		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:34	26783828	VIsion PC : [0] => MASTER_INSP_RESULT_RECEIVE	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783828	CLIENT_INSP_BOTTOM_END,1,675,100,	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783843	-----------------------------------------------------------------------------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783859	[ComView][DataParsing] - [하부] : CLIENT_INSP_BOTTOM_END	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783859	[ComView][DataParsing][CLIENT_INSP_BOTTOM_END] - [하부] : nDeviceCnt:1 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783875	[ComView][DataParsing][CLIENT_INSP_BOTTOM_END] - [하부] : nDeviceID[675] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783890	[ComView][DataParsing][CLIENT_INSP_BOTTOM_END] - [하부] : nMajorDefectNo[100] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783890	[COM][하부] - Device No : 675	 GOOD~	 (VisionPCLog) - 
+[INFO] [] 6/10_2:20:34	26783906	[ComView][DataParsing] - [하부] : CLIENT_INSP_BOTTOM_END - Success	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783921	-----------------------------------------------------------------------------		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:34	26783921	VIsion PC : [0] => MASTER_INSP_RESULT_BOTTOM_RECEIVE	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26783937	VERIFY_CLIENT_RUN_START		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:34	26783968	VERIFY_CLIENT_HEART		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:34	26784031	VERIFY_ONE_CYCLE_DATA,1688,638,3,3,0,32		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:34	26784531	[TactTime Log Test] - 각 PC Grab 전송 시작	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26784593	[ComView][SendDataToClient_AM] - VIsion PC : [AM_PC] => 01,1001,0,673,1,60W1RDXS03,(null),0,1,0,	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26784609	[ComView][SendGrabStartMsg_BOTTOM] - MASTER_BOTTOM_GRAB_START,676,1,60W1RDXS03,10,,0,0,	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26784609	[ComView 함수 ] - PC : [0] / 메세지 : [MASTER_BOTTOM_GRAB_START,676,1,60W1RDXS03,10,,0,0,] Grab 신호 전송 완료	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26784625	상부 Index Check : 708 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26784640	[ComView][SendGrabStartMsg][상부] - MASTER_GRAB_START,708,1,60W1RDXS03,10,,0	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26784640	[ComView 함수 ] - PC : [0] / 메세지 : [MASTER_GRAB_START,708,1,60W1RDXS03,10,,0] Grab 신호 전송 완료	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:34	26784656	[TactTime Log Test] - 각 PC Grab 전송 완료	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785234	2,2002,2,1	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785250	[ComView][DataParsing] - CLIENT_GRAB_END	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785250	[ComView][DataParsing] - CLIENT_GRAB_END (,) 개수가 안맞음. 1 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785265	[ComView][DataParsing][CLIENT_GRAB_END] - 1	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785281	2,2003,2,1,673,1,0	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785281	---------------------------------------------------------------------f--------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785296	[ComView][DataParsing] - [상부] : CLIENT_INSP_END	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785312	[ComView][DataParsing] - CLIENT_INSP_END_AM (,) 개수가 안맞음. 4 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785328	[ComView][DataParsing][CLIENT_INSP_END] - [AM_PC] : DeviceCnt:1 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785328	[ComView][DataParsing][CLIENT_INSP_END] - [AM] : nDeviceID[673] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785343	[ComView][DataParsing][CLIENT_INSP_END] - [AM] : nDefectCnt[1] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785359	[ComView][DataParsing][CLIENT_INSP_END] - [AM] : nDefectID[0] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785359	[ComView][DataParsing][CLIENT_INSP_END] - [AM] : good 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785437	CLIENT_GRAB_BOTTOM_RECEIVE,676	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785453	-----------------------------------------------------------------------------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785468	[ComView][DataParsing] - [하부] : CLIENT_GRAB_BOTTOM_RECEIVE 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785468	[ComView][DataParsing] - CLIENT_GRAB_BOTTOM_RECEIVE (,) 개수가 안맞음. 0 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785484	[ComView][DataParsing][CLIENT_GRAB_BOTTOM_RECEIVE] - [하부] : nDeviceID[676] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785500	[ComView][DataParsing] - [하부] : CLIENT_GRAB_BOTTOM_RECEIVE - Success	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785500	-----------------------------------------------------------------------------		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:35	26785593	CLIENT_INSP_BOTTOM_END,1,676,100,	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785609	-----------------------------------------------------------------------------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785609	[ComView][DataParsing] - [하부] : CLIENT_INSP_BOTTOM_END	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785625	[ComView][DataParsing][CLIENT_INSP_BOTTOM_END] - [하부] : nDeviceCnt:1 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785640	[ComView][DataParsing][CLIENT_INSP_BOTTOM_END] - [하부] : nDeviceID[676] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785640	[ComView][DataParsing][CLIENT_INSP_BOTTOM_END] - [하부] : nMajorDefectNo[100] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785656	[COM][하부] - Device No : 676	 GOOD~	 (VisionPCLog) - 
+[INFO] [] 6/10_2:20:35	26785671	[ComView][DataParsing] - [하부] : CLIENT_INSP_BOTTOM_END - Success	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:35	26785671	-----------------------------------------------------------------------------		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:36	26785687	VIsion PC : [0] => MASTER_INSP_RESULT_BOTTOM_RECEIVE	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:36	26785703	CLIENT_GRAB_RECEIVE,708	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:36	26785703	-----------------------------------------------------------------------------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:36	26785718	[ComView][DataParsing] - [상부] : CLIENT_GRAB_RECEIVE 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:36	26785734	[ComView][DataParsing] - CLIENT_GRAB_RECEIVE (,) 개수가 안맞음. 0 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:36	26785734	[ComView][DataParsing][CLIENT_GRAB_RECEIVE] - [상부] : nDeviceID[708] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:36	26785750	[ComView][DataParsing] - [상부] : CLIENT_GRAB_RECEIVE - Success	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:36	26785765	-----------------------------------------------------------------------------		
+	 (VisionPCLog) - 			
+[INFO] [] 6/10_2:20:36	26785781	CLIENT_INSP_END,1,708,100,0,0,0,	 (VisionPCLog) - 	  
+[INFO] [] 6/10_2:20:36	26785781	---------------------------------------------------------------------f--------	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:36	26785796	[ComView][DataParsing] - [상부] : CLIENT_INSP_END	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:36	26785812	[ComView][DataParsing] - CLIENT_INSP_END_TOP (,) 개수가 안맞음. 6 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:36	26785812	[ComView][DataParsing][CLIENT_INSP_END] - [Vision_PC] : DeviceCnt:1 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:36	26785828	[ComView][DataParsing][CLIENT_INSP_END] - [상부] : nDeviceID[708] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:36	26785843	[ComView][DataParsing][CLIENT_INSP_END] - [상부] : nMajorDefectNo[100] 	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:36	26785843	[COM][상부] - Device No : 708	 GOOD~	 (VisionPCLog) - 
+[INFO] [] 6/10_2:20:36	26785859	[ComView][DataParsing] - [상부] : CLIENT_INSP_END - Success	 (VisionPCLog) - 	
+[INFO] [] 6/10_2:20:36	26785875	-----------------------------------------------------------------------------		
