@@ -1,0 +1,236 @@
+Protocol
+
+[INFO] [] 6/10_2:8:26	26062250	MASTER_GRAB_START,674,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:8:36	26072343	TOP GRAB Retry, 674,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:8:36	26072359	TOP GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:8:36	26072375	TOP GRAB Start	 (ProtocolLog) - 
+[INFO] [] 6/10_2:8:36	26072375	BTM GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:8:36	26072390	BTM GRAB START	 (ProtocolLog) - 
+[INFO] [] 6/10_2:8:37	26073281	Image TOP Buffer [0] [935.529200] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:8:37	26073296	CLIENT_GRAB_RECEIVE,674	 (ProtocolLog) - 
+[INFO] [] 6/10_2:8:37	26073375	Image BTM Buffer [0] [1021.283800] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:8:37	26073390	CLIENT_GRAB_BOTTOM_RECEIVE,642	 (ProtocolLog) - 
+[INFO] [] 6/10_2:8:37	26073562	CLIENT_INSP_BOTTOM_END,1,642,100,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:8:37	26073578	MASTER_INSP_RESULT_BOTTOM_RECEIVE	 (ProtocolLog) - 
+[INFO] [] 6/10_2:8:54	26090000	MASTER_BOTTOM_GRAB_START,641,1,60W1RDXS03,10,,0,0,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:8:54	26090046	MASTER_GRAB_START,673,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:4	26100140	TOP GRAB Retry, 673,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:4	26100156	TOP GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:4	26100156	TOP GRAB Start	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:4	26100171	BTM GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:4	26100187	BTM GRAB START	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:5	26101078	Image TOP Buffer [0] [937.505300] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:5	26101093	CLIENT_GRAB_RECEIVE,673	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:5	26101171	Image BTM Buffer [0] [1019.292100] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:5	26101187	CLIENT_GRAB_BOTTOM_RECEIVE,641	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:5	26101343	CLIENT_INSP_BOTTOM_END,1,641,100,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:5	26101359	MASTER_INSP_RESULT_BOTTOM_RECEIVE	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:6	26102046	MASTER_BOTTOM_GRAB_START,642,1,60W1RDXS03,10,,0,0,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:6	26102093	MASTER_GRAB_START,674,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:16	26112187	TOP GRAB Retry, 674,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:16	26112203	TOP GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:16	26112203	TOP GRAB Start	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:16	26112218	BTM GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:16	26112234	BTM GRAB START	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:17	26113109	Image TOP Buffer [0] [929.527100] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:17	26113125	CLIENT_GRAB_RECEIVE,674	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:17	26113390	Image BTM Buffer [0] [1178.867800] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:17	26113406	CLIENT_GRAB_BOTTOM_RECEIVE,642	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:17	26113562	CLIENT_INSP_BOTTOM_END,1,642,100,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:17	26113578	MASTER_INSP_RESULT_BOTTOM_RECEIVE	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:34	26130000	MASTER_BOTTOM_GRAB_START,641,1,60W1RDXS03,10,,0,0,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:34	26130031	MASTER_GRAB_START,673,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:44	26140125	TOP GRAB Retry, 673,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:44	26140140	TOP GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:44	26140140	TOP GRAB Start	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:44	26140156	BTM GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:44	26140171	BTM GRAB START	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:45	26141062	Image TOP Buffer [0] [929.551700] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:45	26141062	CLIENT_GRAB_RECEIVE,673	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:45	26141156	Image BTM Buffer [0] [1013.306800] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:45	26141171	CLIENT_GRAB_BOTTOM_RECEIVE,641	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:45	26141328	CLIENT_INSP_BOTTOM_END,1,641,100,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:45	26141343	MASTER_INSP_RESULT_BOTTOM_RECEIVE	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:46	26142015	MASTER_BOTTOM_GRAB_START,642,1,60W1RDXS03,10,,0,0,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:46	26142062	MASTER_GRAB_START,674,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:56	26152156	TOP GRAB Retry, 674,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:56	26152171	TOP GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:56	26152187	TOP GRAB Start	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:56	26152187	BTM GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:56	26152203	BTM GRAB START	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:57	26153093	Image TOP Buffer [0] [929.534700] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:57	26153093	CLIENT_GRAB_RECEIVE,674	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:57	26153171	Image BTM Buffer [0] [993.357500] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:57	26153187	CLIENT_GRAB_BOTTOM_RECEIVE,642	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:57	26153296	CLIENT_INSP_BOTTOM_END,1,642,100,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:9:57	26153312	MASTER_INSP_RESULT_BOTTOM_RECEIVE	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:13	26169765	MASTER_BOTTOM_GRAB_START,641,1,60W1RDXS03,10,,0,0,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:13	26169796	MASTER_GRAB_START,673,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:24	26179890	TOP GRAB Retry, 673,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:24	26179906	TOP GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:24	26179906	TOP GRAB Start	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:24	26179921	BTM GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:24	26179937	BTM GRAB START	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:25	26180828	Image TOP Buffer [0] [927.550300] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:25	26180828	CLIENT_GRAB_RECEIVE,673	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:25	26180953	Image BTM Buffer [0] [1037.252600] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:25	26180968	CLIENT_GRAB_BOTTOM_RECEIVE,641	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:25	26181125	CLIENT_INSP_BOTTOM_END,1,641,100,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:25	26181140	MASTER_INSP_RESULT_BOTTOM_RECEIVE	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:26	26181812	MASTER_BOTTOM_GRAB_START,642,1,60W1RDXS03,10,,0,0,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:26	26181859	MASTER_GRAB_START,674,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:36	26191953	TOP GRAB Retry, 674,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:36	26191968	TOP GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:36	26191968	TOP GRAB Start	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:36	26191984	BTM GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:36	26192000	BTM GRAB START	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:37	26192890	Image TOP Buffer [0] [929.514700] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:37	26192890	CLIENT_GRAB_RECEIVE,674	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:37	26192937	Image BTM Buffer [0] [967.427700] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:37	26192953	CLIENT_GRAB_BOTTOM_RECEIVE,642	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:37	26193078	CLIENT_INSP_BOTTOM_END,1,642,100,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:37	26193093	MASTER_INSP_RESULT_BOTTOM_RECEIVE	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:53	26209562	MASTER_BOTTOM_GRAB_START,641,1,60W1RDXS03,10,,0,0,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:10:53	26209609	MASTER_GRAB_START,673,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:3	26219703	TOP GRAB Retry, 673,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:3	26219718	TOP GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:3	26219718	TOP GRAB Start	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:3	26219734	BTM GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:3	26219750	BTM GRAB START	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:4	26220640	Image TOP Buffer [0] [937.535200] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:4	26220656	CLIENT_GRAB_RECEIVE,673	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:4	26220734	Image BTM Buffer [0] [1017.292000] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:4	26220750	CLIENT_GRAB_BOTTOM_RECEIVE,641	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:5	26220921	CLIENT_INSP_BOTTOM_END,1,641,100,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:5	26220937	MASTER_INSP_RESULT_BOTTOM_RECEIVE	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:5	26221625	MASTER_BOTTOM_GRAB_START,642,1,60W1RDXS03,10,,0,0,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:5	26221656	MASTER_GRAB_START,674,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:15	26231750	TOP GRAB Retry, 674,1,60W1RDXS03,10,,0	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:15	26231750	TOP GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:15	26231765	TOP GRAB Start	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:15	26231781	BTM GRAB Ready	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:15	26231796	BTM GRAB START	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:16	26232671	Image TOP Buffer [0] [929.521200] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:16	26232687	CLIENT_GRAB_RECEIVE,674	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:17	26232937	Image BTM Buffer [0] [1170.886900] 	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:17	26232953	CLIENT_GRAB_BOTTOM_RECEIVE,642	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:17	26233062	CLIENT_INSP_BOTTOM_END,1,642,100,	 (ProtocolLog) - 
+[INFO] [] 6/10_2:11:17	26233078	MASTER_INSP_RESULT_BOTTOM_RECEIVE	 (ProtocolLog) - 
+
+
+SystemLog
+[INFO] [] 6/10_2:8:23	26059218	[DEF_STEP_READY]Vision Module ID = 0	 (SystemLog) - 
+[INFO] [] 6/10_2:8:23	26059234	[DEF_STEP_CHECK_RUN]Vision Module ID = 0	 (SystemLog) - 
+[INFO] [] 6/10_2:8:23	26059234	Vision Module ID = 0	 (SystemLog) - 
+[INFO] [] 6/10_2:8:24	26060234	Align 보정값 [-0.086]	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26060953	Cam No, 0, Index, 674, 검사 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26060968	Cam No, 0, Index, 673, Attach Punch 검사 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26060984	Align 보정값 [-0.086]	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061000	Cam No, 0, Index, 673, Attach Punch 검사 완료	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061015	Cam No, 0, Index, 673, 일반 tsi_avi2_run_206_double_potting_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061015	Cam No, 0, Index, 673, 일반 tsi_avi2_run_206_double_potting_insp 완료	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061031	Cam No, 0, Index, 673, 일반 tsi_avi2_run_202_lead_sr_scratch_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061046	Cam No, 0, Index, 673, 일반 tsi_avi2_run_202_lead_sr_scratch_insp 완료	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061062	Cam No, 0, Index, 673, 일반 tsi_avi2_run_203_lead_sr_resin_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061062	Cam No, 0, Index, 673, 일반 tsi_avi2_run_203_lead_sr_resin_insp 완료	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061078	Cam No, 0, Index, 673, 일반 tsi_avi2_run_204_chip_broken_resin_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061093	Cam No, 0, Index, 673, 일반 tsi_avi2_run_204_chip_broken_resin_insp 완료	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061109	Cam No, 0, Index, 673, 일반 tsi_avi2_run_205_chipout_potting_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061203	Cam No, 1, Index, 642, 검사 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061218	Cam No, 1, Index, 642, 하부 검사 시작 	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061234	Cam No, 1, Index, 641, tsi_avi2_run_601_bottom_attach_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061250	Align 보정값 [-1.089]	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061312	Cam No, 1, Index, 641, tsi_avi2_run_601_bottom_attach_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061328	Cam No, 1, Index, 641, tsi_avi2_run_602_film_dent_wrinkle_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061343	Cam No, 1, Index, 641, tsi_avi2_run_602_film_dent_wrinkle_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061343	[DEF_STEP_READY]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061359	[DEF_STEP_CHECK_RUN]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:8:25	26061375	Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:8:31	26066953	[TIME_OUT][INSP_RESULT_TIMER]Vision Module ID = 0	 (SystemLog) - 
+[INFO] [] 6/10_2:8:31	26066968	Vision Module ID = 0	 (SystemLog) - 
+[INFO] [] 6/10_2:8:31	26066984	[TIME_OUT]Vision Module ID = 0	 (SystemLog) - 
+[INFO] [] 6/10_2:8:36	26072562	Align 보정값 [0.088]	 (SystemLog) - 
+[INFO] [] 6/10_2:8:37	26073390	Cam No, 1, Index, 643, 검사 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:8:37	26073390	Cam No, 1, Index, 643, 하부 검사 시작 	 (SystemLog) - 
+[INFO] [] 6/10_2:8:37	26073406	Cam No, 1, Index, 642, tsi_avi2_run_601_bottom_attach_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:8:37	26073421	Align 보정값 [-1.178]	 (SystemLog) - 
+[INFO] [] 6/10_2:8:37	26073484	Cam No, 1, Index, 642, tsi_avi2_run_601_bottom_attach_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:8:37	26073500	Cam No, 1, Index, 642, tsi_avi2_run_602_film_dent_wrinkle_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:8:37	26073515	Cam No, 1, Index, 642, tsi_avi2_run_602_film_dent_wrinkle_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:8:37	26073531	[DEF_STEP_READY]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:8:37	26073531	[DEF_STEP_CHECK_RUN]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:8:37	26073546	Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:9:4	26100359	Align 보정값 [-0.082]	 (SystemLog) - 
+[INFO] [] 6/10_2:9:5	26101171	Cam No, 1, Index, 642, 검사 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:9:5	26101187	Cam No, 1, Index, 642, 하부 검사 시작 	 (SystemLog) - 
+[INFO] [] 6/10_2:9:5	26101203	Cam No, 1, Index, 641, tsi_avi2_run_601_bottom_attach_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:9:5	26101218	Align 보정값 [-1.098]	 (SystemLog) - 
+[INFO] [] 6/10_2:9:5	26101281	Cam No, 1, Index, 641, tsi_avi2_run_601_bottom_attach_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:9:5	26101296	Cam No, 1, Index, 641, tsi_avi2_run_602_film_dent_wrinkle_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:9:5	26101312	Cam No, 1, Index, 641, tsi_avi2_run_602_film_dent_wrinkle_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:9:5	26101312	[DEF_STEP_READY]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:9:5	26101328	[DEF_STEP_CHECK_RUN]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:9:5	26101343	Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:9:16	26112406	Align 보정값 [0.060]	 (SystemLog) - 
+[INFO] [] 6/10_2:9:17	26113390	Cam No, 1, Index, 643, 검사 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:9:17	26113406	Cam No, 1, Index, 643, 하부 검사 시작 	 (SystemLog) - 
+[INFO] [] 6/10_2:9:17	26113421	Cam No, 1, Index, 642, tsi_avi2_run_601_bottom_attach_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:9:17	26113437	Align 보정값 [-1.207]	 (SystemLog) - 
+[INFO] [] 6/10_2:9:17	26113500	Cam No, 1, Index, 642, tsi_avi2_run_601_bottom_attach_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:9:17	26113515	Cam No, 1, Index, 642, tsi_avi2_run_602_film_dent_wrinkle_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:9:17	26113531	Cam No, 1, Index, 642, tsi_avi2_run_602_film_dent_wrinkle_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:9:17	26113531	[DEF_STEP_READY]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:9:17	26113546	[DEF_STEP_CHECK_RUN]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:9:17	26113562	Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:9:44	26140343	Align 보정값 [-0.067]	 (SystemLog) - 
+[INFO] [] 6/10_2:9:45	26141171	Cam No, 1, Index, 642, 검사 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:9:45	26141171	Cam No, 1, Index, 642, 하부 검사 시작 	 (SystemLog) - 
+[INFO] [] 6/10_2:9:45	26141187	Cam No, 1, Index, 641, tsi_avi2_run_601_bottom_attach_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:9:45	26141203	Align 보정값 [-1.110]	 (SystemLog) - 
+[INFO] [] 6/10_2:9:45	26141265	Cam No, 1, Index, 641, tsi_avi2_run_601_bottom_attach_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:9:45	26141281	Cam No, 1, Index, 641, tsi_avi2_run_602_film_dent_wrinkle_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:9:45	26141296	Cam No, 1, Index, 641, tsi_avi2_run_602_film_dent_wrinkle_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:9:45	26141312	[DEF_STEP_READY]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:9:45	26141312	[DEF_STEP_CHECK_RUN]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:9:45	26141328	Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:9:56	26152375	Align 보정값 [0.047]	 (SystemLog) - 
+[INFO] [] 6/10_2:9:57	26153171	Cam No, 1, Index, 643, 검사 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:9:57	26153187	Cam No, 1, Index, 643, 하부 검사 시작 	 (SystemLog) - 
+[INFO] [] 6/10_2:9:57	26153203	Cam No, 1, Index, 642, tsi_avi2_run_601_bottom_attach_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:9:57	26153203	Align 보정값 [-1.203]	 (SystemLog) - 
+[INFO] [] 6/10_2:9:57	26153234	Cam No, 1, Index, 642, tsi_avi2_run_601_bottom_attach_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:9:57	26153250	Cam No, 1, Index, 642, tsi_avi2_run_602_film_dent_wrinkle_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:9:57	26153250	Cam No, 1, Index, 642, tsi_avi2_run_602_film_dent_wrinkle_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:9:57	26153265	[DEF_STEP_READY]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:9:57	26153281	[DEF_STEP_CHECK_RUN]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:9:57	26153296	Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:10:24	26180109	Align 보정값 [-0.065]	 (SystemLog) - 
+[INFO] [] 6/10_2:10:25	26180953	Cam No, 1, Index, 642, 검사 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:10:25	26180968	Cam No, 1, Index, 642, 하부 검사 시작 	 (SystemLog) - 
+[INFO] [] 6/10_2:10:25	26180984	Cam No, 1, Index, 641, tsi_avi2_run_601_bottom_attach_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:10:25	26180984	Align 보정값 [-1.110]	 (SystemLog) - 
+[INFO] [] 6/10_2:10:25	26181062	Cam No, 1, Index, 641, tsi_avi2_run_601_bottom_attach_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:10:25	26181078	Cam No, 1, Index, 641, tsi_avi2_run_602_film_dent_wrinkle_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:10:25	26181078	Cam No, 1, Index, 641, tsi_avi2_run_602_film_dent_wrinkle_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:10:25	26181093	[DEF_STEP_READY]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:10:25	26181109	[DEF_STEP_CHECK_RUN]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:10:25	26181125	Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:10:36	26192171	Align 보정값 [0.056]	 (SystemLog) - 
+[INFO] [] 6/10_2:10:37	26192937	Cam No, 1, Index, 643, 검사 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:10:37	26192953	Cam No, 1, Index, 643, 하부 검사 시작 	 (SystemLog) - 
+[INFO] [] 6/10_2:10:37	26192968	Cam No, 1, Index, 642, tsi_avi2_run_601_bottom_attach_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:10:37	26192984	Align 보정값 [-1.211]	 (SystemLog) - 
+[INFO] [] 6/10_2:10:37	26193000	Cam No, 1, Index, 642, tsi_avi2_run_601_bottom_attach_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:10:37	26193015	Cam No, 1, Index, 642, tsi_avi2_run_602_film_dent_wrinkle_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:10:37	26193031	Cam No, 1, Index, 642, tsi_avi2_run_602_film_dent_wrinkle_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:10:37	26193031	[DEF_STEP_READY]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:10:37	26193046	[DEF_STEP_CHECK_RUN]Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:10:37	26193078	Vision Module ID = 2	 (SystemLog) - 
+[INFO] [] 6/10_2:11:4	26219921	Align 보정값 [-0.063]	 (SystemLog) - 
+[INFO] [] 6/10_2:11:4	26220734	Cam No, 1, Index, 642, 검사 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:11:4	26220750	Cam No, 1, Index, 642, 하부 검사 시작 	 (SystemLog) - 
+[INFO] [] 6/10_2:11:4	26220765	Cam No, 1, Index, 641, tsi_avi2_run_601_bottom_attach_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:11:4	26220781	Align 보정값 [-1.114]	 (SystemLog) - 
+[INFO] [] 6/10_2:11:5	26220843	Cam No, 1, Index, 641, tsi_avi2_run_601_bottom_attach_insp 종료	 (SystemLog) - 
+[INFO] [] 6/10_2:11:5	26220859	Cam No, 1, Index, 641, tsi_avi2_run_602_film_dent_wrinkle_insp 시작	 (SystemLog) - 
+[INFO] [] 6/10_2:11:5	26220875	Cam No, 1, Index, 641, tsi_avi2_run_602_film_dent_wrinkle_insp 종료	 (SystemLog) - 
